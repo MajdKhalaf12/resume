@@ -87,7 +87,7 @@ export const gridItems = [
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName:
       "justify-center md:justify-start lg:justify-center font-bold italic  ",
-    img: "./Arabic font.svg",
+    img: "./Arabic-Font.svg",
     spareImg: "./grid.svg",
   },
   {
