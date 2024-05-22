@@ -193,7 +193,7 @@ export const companies = [
     id: 4,
     name: "stream",
     img: "./s.svg",
-    nameImg: "/.streamName.svg",
+    nameImg: "./streamName.svg",
   },
   {
     id: 5,
