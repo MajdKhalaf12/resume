@@ -42,14 +42,16 @@ const Hero = () => {
       >
         <div className="flex justify-center relative my-5 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-            {/* { <Image
-              src={majd}
-              alt="Majd portrait"
-              width="192"
-              height="192"
-              quality="95"
-              className="md:h-60 md:w-60 h-40 w-40 rounded-full object-cover border-[0.2rem] border-purple "
-            />} */}
+            {
+              <Image
+                src={majd}
+                alt="Majd portrait"
+                width="192"
+                height="192"
+                quality="95"
+                className="md:h-60 md:w-60 h-40 w-40 rounded-full object-cover border-[0.2rem] border-purple "
+              />
+            }
             <p className=" md:text-6xl my-5 text-3xl tracking-tight text-center">
               <span>HEY, I am Majd Khalaf</span>
               <br />
