@@ -6,8 +6,23 @@ import majd from "../public/Majd Profile.jpg";
 import { motion } from "framer-motion";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  const handleAnimationComplete = () => {
+    setIsLoaded(true);
+  };
+
+  useEffect(() => {
+    // Simulate checking if TypeAnimation is loaded, replace with actual check if available
+    const checkAnimationLoaded = () => {
+      setIsLoaded(true);
+    };
+
+    checkAnimationLoaded();
+  }, []);
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -55,19 +70,25 @@ const Hero = () => {
             <p className=" md:text-6xl my-5 text-3xl tracking-tight text-center">
               <span>HEY, I am Majd Khalaf</span>
               <br />
-              <TypeAnimation
-                sequence={[
-                  "Front-end Developer",
-                  1000,
-                  "UI/UX Designer",
-                  1000,
-                  "Graphic Designer",
-                  1000,
-                ]}
-                speed={50}
-                repeat={Infinity}
-                className="font-bold italic text-purple"
-              />
+              {isLoaded ? (
+                <TypeAnimation
+                  sequence={[
+                    "Front-end Developer",
+                    1000,
+                    "UI/UX Designer",
+                    1000,
+                    "Graphic Designer",
+                    1000,
+                  ]}
+                  speed={50}
+                  repeat={Infinity}
+                  className="font-bold italic text-purple"
+                />
+              ) : (
+                <span className="font-bold italic text-purple">
+                  Front-end developer
+                </span>
+              )}
             </p>
 
             <p className="uppercase md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl">
