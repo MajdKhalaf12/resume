@@ -10,42 +10,15 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
-
 export const gridItems = [
   {
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
+    imgClassName: "w-full h-full opacity-20",
     titleClassName: "justify-end",
-    img: "./b1.svg",
+    img: "./b1.jpg",
     spareImg: "",
   },
   {
@@ -158,10 +131,10 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "./profile.svg",
+      "Majd Al Khalaf did an excellent job designing image assets for my game. He was creative, responsive, and fast, delivering high-quality work that exceeded my expectations. I highly recommend him for any design project.",
+    name: "Baraa Al-Halabi",
+    title: "Game Developer at Tap4Speed",
+    img: "/Baraa Halabi.jpg",
   },
   {
     quote:

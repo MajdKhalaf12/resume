@@ -15,7 +15,7 @@ const RecentProjects = () => {
       <div className="w-full flex flex-wrap items-center justify-center p-4 gap-20 mt-10 ">
         {projects.map((item) => (
           <div
-            className="w-full lg:min-h-[32.5rem] h-[25rem] mx-20 flex items-center justify-center sm:w-96"
+            className="w-full lg:min-h-[32.5rem] h-[25rem] lg:mx-20 flex items-center justify-center sm:w-96"
             key={item.id}
             style={{ gap: "5rem" }}
           >

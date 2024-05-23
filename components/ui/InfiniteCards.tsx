@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/utils/cn";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -111,13 +112,21 @@ export const InfiniteMovingCards = ({
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
               {/* change text color, text-lg */}
-              <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
-                {item.quote}
-              </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
+
+              <div className="relative z-20 mb-10 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
-                  <img src={item.img} alt="profile" />
+                  <Image
+                    src={item.img}
+                    alt="P"
+                    width="192"
+                    height="192"
+                    quality="95"
+                    className="md:h-20 md:w-20 h-20 w-20 rounded-full object-cover "
+                  />
+                  <div className="absolute mb-40 h-40 w-40">
+                    <img src="./quote.svg" className="opacity-5" />
+                  </div>
                 </div>
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
@@ -131,6 +140,9 @@ export const InfiniteMovingCards = ({
                 </span>
               </div>
             </blockquote>
+            <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal font-sans italic">
+              {item.quote}
+            </span>
           </li>
         ))}
       </ul>
