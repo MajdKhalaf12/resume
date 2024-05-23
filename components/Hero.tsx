@@ -6,23 +6,8 @@ import majd from "../public/Majd Profile.jpg";
 import { motion } from "framer-motion";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
-import { useEffect, useState } from "react";
 
 const Hero = () => {
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  const handleAnimationComplete = () => {
-    setIsLoaded(true);
-  };
-
-  useEffect(() => {
-    // Simulate checking if TypeAnimation is loaded, replace with actual check if available
-    const checkAnimationLoaded = () => {
-      setIsLoaded(true);
-    };
-
-    checkAnimationLoaded();
-  }, []);
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -58,19 +43,19 @@ const Hero = () => {
         <div className="flex justify-center relative my-5 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
             {
-              <Image
-                src={majd}
-                alt="Majd portrait"
-                width="192"
-                height="192"
-                quality="95"
-                className="md:h-60 md:w-60 h-40 w-40 rounded-full object-cover border-[0.2rem] border-purple "
-              />
+              // <Image
+              //   src={majd}
+              //   alt="Majd portrait"
+              //   width="192"
+              //   height="192"
+              //   quality="75"
+              //   className="md:h-60 md:w-60 h-40 w-40 rounded-full object-cover border-[0.2rem] border-purple "
+              // />
             }
             <p className=" md:text-6xl my-5 text-3xl tracking-tight text-center">
               <span>HEY, I am Majd Khalaf</span>
               <br />
-              {isLoaded ? (
+              {
                 <TypeAnimation
                   sequence={[
                     "Front-end Developer",
@@ -84,11 +69,7 @@ const Hero = () => {
                   repeat={Infinity}
                   className="font-bold italic text-purple"
                 />
-              ) : (
-                <span className="font-bold italic text-purple">
-                  Front-end developer
-                </span>
-              )}
+              }
             </p>
 
             <p className="uppercase md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl">
