@@ -64,7 +64,10 @@ const Hero = () => {
             <p className="uppercase md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl">
               +3 Years of Experience
             </p>
-            <a href="/Majd Al-Khalaf Resume.pdf" download>
+            <a
+              href="/Majd Al-Khalaf Resume.pdf"
+              download="Majd Al-Khalaf Resume.pdf"
+            >
               <MagicButton
                 icon={<HiDownload />}
                 position="right"
