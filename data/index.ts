@@ -18,7 +18,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full opacity-20",
     titleClassName: "justify-end",
-    img: "./b1.jpg",
+    img: "./Majd Profile.jpg",
     spareImg: "",
   },
   {
@@ -94,6 +94,14 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Game Hub",
+    des: "Took a course with Mosh Hamadani which has resulted this website.",
+    img: "./Game-hub.png",
+    iconLists: ["./re.svg", "./ts.svg"],
+    link: "https://majdkhalaf12.github.io/Game-hub/",
+  },
+  {
+    id: 4,
     title: "My Drive Data",
     des: 'on Drive where you will find mostly Raw Designs without "THE PERFECT PRESENTATION" and doodles.',
     img: "./google-drive.png",
@@ -141,21 +149,21 @@ export const workExperience = [
   {
     id: 2,
     title: "Damascus University",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: "at 2022 started as a Computer Science student.",
+    className: "md:col-span-2",
     thumbnail: "./graduation-hat.svg",
   },
   {
     id: 3,
     title: "Graphic Designer",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: "in OTOM8 company started as a graphic designer for more than 8 months.",
+    className: "md:col-span-2",
     thumbnail: "./edit-tools.svg",
   },
   {
     id: 4,
     title: "Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Self training with courses as a Front-end Developer.",
     className: "md:col-span-2",
     thumbnail: "./exp1.svg",
   },
@@ -176,5 +184,10 @@ export const socialMedia = [
     id: 3,
     img: "./link.svg",
     href: "https://www.linkedin.com/in/majd-al-khalaf",
+  },
+  {
+    id: 4,
+    img: "./wha.svg",
+    href: "https://wa.link/isy87k",
   },
 ];
