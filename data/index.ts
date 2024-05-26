@@ -118,6 +118,7 @@ export const testimonials = [
     name: "Baraa Al-Halabi",
     title: "Game Developer at Gamio",
     img: "./Baraa Halabi.jpg",
+    linkedin: "https://www.linkedin.com/in/baraa-h-47a1ab12a/",
   },
 ];
 
@@ -143,7 +144,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Motion Graphic Designer Intern",
-    desc: "At the age of 16 Entered the world of Design in Zeta studios a small startup.",
+    desc: "With a small startup at the age of 16 Entered the world of Design in Zeta studios .",
     className: "md:col-span-2",
     thumbnail: "./slow-motion.svg",
   },
