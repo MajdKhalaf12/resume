@@ -12,7 +12,7 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="w-full flex flex-wrap items-center justify-center p-4 sm:gap-2 md:gap-20 mt-10 ">
+      <div className="w-full flex flex-wrap items-center justify-center p-4 sm:gap-2  gap-y-10 md:gap-20 mt-10 ">
         {projects.map((item) => (
           <a
             href={item.link}

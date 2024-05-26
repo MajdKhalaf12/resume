@@ -143,7 +143,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Motion Graphic Designer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "At the age of 16 Entered the world of Design in Zeta studios a small startup.",
     className: "md:col-span-2",
     thumbnail: "./slow-motion.svg",
   },

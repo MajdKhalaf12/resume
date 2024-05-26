@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import MagicButton from "./ui/MagicButton";
 import { HiDownload } from "react-icons/hi";
 import { myCV } from "@/data";
+import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -67,7 +68,7 @@ const Hero = () => {
             </p>
             <a href={myCV} target="_blank">
               <MagicButton
-                icon={<HiDownload />}
+                icon={<FaLocationArrow />}
                 position="right"
                 title="Get my CV"
               />
