@@ -5,6 +5,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { motion } from "framer-motion";
 import MagicButton from "./ui/MagicButton";
 import { HiDownload } from "react-icons/hi";
+import { myCV } from "@/data";
 
 const Hero = () => {
   return (
@@ -64,10 +65,7 @@ const Hero = () => {
             <p className="uppercase md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl">
               +3 Years of Experience
             </p>
-            <a
-              href="/Majd Al-Khalaf Resume.pdf"
-              download="Majd Al-Khalaf Resume.pdf"
-            >
+            <a href={myCV} target="_blank">
               <MagicButton
                 icon={<HiDownload />}
                 position="right"

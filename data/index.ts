@@ -10,6 +10,7 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const myCV = "./Majd Al-Khalaf Resume.pdf";
 export const gridItems = [
   {
     id: 1,
@@ -116,7 +117,7 @@ export const testimonials = [
       "Majd Al Khalaf did an excellent job designing image assets for my game. He was creative, responsive, and fast, delivering high-quality work that exceeded my expectations. I highly recommend him for any design project.",
     name: "Baraa Al-Halabi",
     title: "Game Developer at Gamio",
-    img: "./Baraa Halabi.jpg",
+    img: "/Baraa Halabi.jpg",
   },
 ];
 
