@@ -14,11 +14,13 @@ const RecentProjects = () => {
       </h1>
       <div className="w-full flex flex-wrap items-center justify-center p-4 sm:gap-2 md:gap-20 mt-10 ">
         {projects.map((item) => (
-          <a href={item.link} target="_blank">
-            <div
-              className="w-full lg:min-h-[32.5rem] h-[25rem] lg:mx-20 flex items-center justify-center sm:w-96"
-              key={item.id}
-            >
+          <a
+            href={item.link}
+            target="_blank"
+            className="w-full lg:min-h-[32.5rem] h-[25rem] lg:mx-20 flex items-center justify-center sm:w-96"
+            key={item.id}
+          >
+            <div>
               <PinContainer title="Visit" href={item.link}>
                 <div className="relative flex items-center justify-center sm:w-96 w-[80vw] lg:w-[35vw] overflow-hidden h-[28vh] lg:h-[40vh]">
                   <div
