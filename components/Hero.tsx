@@ -2,10 +2,9 @@
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { Spotlight } from "./ui/Spotlight";
-import majd from "../public/Majd Profile.jpg";
 import { motion } from "framer-motion";
 import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa6";
+import { HiDownload } from "react-icons/hi";
 
 const Hero = () => {
   return (
@@ -33,8 +32,8 @@ const Hero = () => {
       </div>
 
       <motion.div
-        initial={{ opacity: 0, scale: 1 }}
-        animate={{ opacity: 1, scale: 1 }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
         transition={{
           type: "tween",
           duration: 0.7,
@@ -42,16 +41,6 @@ const Hero = () => {
       >
         <div className="flex justify-center relative my-5 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-            {
-              // <Image
-              //   src={majd}
-              //   alt="Majd portrait"
-              //   width="192"
-              //   height="192"
-              //   quality="75"
-              //   className="md:h-60 md:w-60 h-40 w-40 rounded-full object-cover border-[0.2rem] border-purple "
-              // />
-            }
             <p className=" md:text-6xl my-5 text-3xl tracking-tight text-center">
               <span>HEY, I am Majd Khalaf</span>
               <br />
@@ -75,11 +64,11 @@ const Hero = () => {
             <p className="uppercase md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl">
               +3 Years of Experience
             </p>
-            <a href="#about">
+            <a href="/Majd Al-Khalaf Resume.pdf" download>
               <MagicButton
-                icon={<FaLocationArrow />}
+                icon={<HiDownload />}
                 position="right"
-                title="Show my work"
+                title="Get my CV"
               />
             </a>
           </div>

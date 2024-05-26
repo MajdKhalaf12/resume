@@ -78,53 +78,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "./p1.svg",
-    iconLists: [
-      "./re.svg",
-      "./tail.svg",
-      "./ts.svg",
-      "./three.svg",
-      "./fm.svg",
-    ],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Cialdini Arabia Website UI",
+    des: "With Dr.Ahmad Misto the First pioneer with Cialdini institute the field of Sales and Enablement",
+    img: "./cialdini_institute_website.png",
+    iconLists: ["./figma.svg"],
+    link: "https://www.figma.com/proto/3MBt5eDQTZsK9jyLgIDpAd/Cialdini-Arabia?node-id=4-3907&t=G4KPgSKb46og9M3S-1",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "./p2.svg",
-    iconLists: [
-      "./next.svg",
-      "./tail.svg",
-      "./ts.svg",
-      "./stream.svg",
-      "./c.svg",
-    ],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Ejet Alkahraba UI",
+    des: "Landing page with figma for a company about electricity block outs.",
+    img: "./Ejet alkahraba website.png",
+    iconLists: ["./figma.svg", "./framer-svgrepo-com.svg"],
+    link: "https://www.figma.com/proto/UqL6ifeowaS4TRIN4Bo2PS/Ejet-alkharaba-website?node-id=3-2299&starting-point-node-id=3%3A2299",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "./p3.svg",
-    iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "./p4.svg",
-    iconLists: [
-      "./next.svg",
-      "./tail.svg",
-      "./ts.svg",
-      "./three.svg",
-      "./gsap.svg",
-    ],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "My Drive Data",
+    des: 'on Drive where you will find mostly Raw Designs without "THE PERFECT PRESENTATION" and doodles.',
+    img: "./google-drive.png",
+    iconLists: [],
+    link: "https://drive.google.com/drive/folders/1LATmvRPdatX3NSjFVlfz5QIxm2zDHdtB?usp=drive_link",
   },
 ];
 
@@ -133,36 +107,8 @@ export const testimonials = [
     quote:
       "Majd Al Khalaf did an excellent job designing image assets for my game. He was creative, responsive, and fast, delivering high-quality work that exceeded my expectations. I highly recommend him for any design project.",
     name: "Baraa Al-Halabi",
-    title: "Game Developer at Tap4Speed",
+    title: "Game Developer at Gamio",
     img: "/Baraa Halabi.jpg",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "./profile.svg",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "./profile.svg",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "./profile.svg",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "./profile.svg",
   },
 ];
 
@@ -170,32 +116,17 @@ export const companies = [
   {
     id: 1,
     name: "EjetAlkharaba",
-    //img: "/Ejet alkahraba-Logo.svg",
     nameImg: "./Ejet alkahraba-Logo.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    //img: "/app.svg",
+    name: "Almountada",
     nameImg: "./Almountada Logo.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "./host.svg",
+    name: "Cialdini Arabia",
     nameImg: "./cialdini_institute.png",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "./s.svg",
-    nameImg: "./streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "./dock.svg",
-    nameImg: "./dockerName.svg",
   },
 ];
 

@@ -23,7 +23,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+      <div className="flex mt-16 md:flex-row flex-col gap-6 justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           © 2024 Majd Khalaf
         </p>
