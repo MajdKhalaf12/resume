@@ -87,6 +87,14 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Alphazed website",
+    des: "Design Training non-official website for alphazed, teaching arabic app using gamified learning like duolingo.",
+    img: "./Alphazed.png",
+    iconLists: ["./figma.svg"],
+    link: "https://www.figma.com/proto/0pt6pbecBvyalfYPUoBrFl/Alphazed-website?page-id=0%3A1&node-id=1-22149&viewport=1575%2C-119%2C0.32&t=UJQbpgnbr0TZSRSn-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A22149",
+  },
+  {
+    id: 3,
     title: "Ejet Alkahraba UI",
     des: "Landing page with figma for a company about electricity block outs.",
     img: "./Ejet alkahraba website.png",
@@ -94,20 +102,12 @@ export const projects = [
     link: "https://www.figma.com/proto/UqL6ifeowaS4TRIN4Bo2PS/Ejet-alkharaba-website?node-id=3-2299&starting-point-node-id=3%3A2299",
   },
   {
-    id: 3,
+    id: 4,
     title: "Game Hub",
     des: "Took a course with Mosh Hamadani which has resulted this website.",
     img: "./Game-hub.png",
     iconLists: ["./re.svg", "./ts.svg"],
     link: "https://majdkhalaf12.github.io/Game-hub/",
-  },
-  {
-    id: 4,
-    title: "My Drive Data",
-    des: 'on Drive where you will find mostly Raw Designs without "THE PERFECT PRESENTATION" and doodles.',
-    img: "./google-drive.png",
-    iconLists: [],
-    link: "https://drive.google.com/drive/folders/1LATmvRPdatX3NSjFVlfz5QIxm2zDHdtB?usp=drive_link",
   },
 ];
 
@@ -117,7 +117,7 @@ export const testimonials = [
       "Majd Al Khalaf did an excellent job designing image assets for my game. He was creative, responsive, and fast, delivering high-quality work that exceeded my expectations. I highly recommend him for any design project.",
     name: "Baraa Al-Halabi",
     title: "Game Developer at Gamio",
-    img: "./Baraa Halabi.jpg",
+    img: "/Baraa Halabi.jpg",
     linkedin: "https://www.linkedin.com/in/baraa-h-47a1ab12a/",
   },
 ];
